@@ -10,7 +10,8 @@ body {
 
 /* NAVBAR */
 
-.navbar .container {
+.navbar .container,
+.header .container {
     background-color: #1f3730;
     display: flex;
     justify-content: space-between;
@@ -21,7 +22,7 @@ body {
 .navbar .container ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 .nav a {
@@ -40,10 +41,69 @@ body {
     width: 40px;
 }
 
+/* HEADER */
+
+.header .container {
+    padding: 70px 100px;
+}
+
+.header .container .hero {
+    max-width: 800px;
+}
+
+.container-img {
+    min-width: 450px;
+    max-width: 450px;
+    border: 1px solid #3f7061;
+    border-radius: 5px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.header .container img {
+    /* background-size: cover; */
+    transition: all ease 0.4s;
+}
+
+.header .container img:hover {
+    transform: scale(1.05);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    /* margin-bottom: -10px; */
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5ebeb;
+}
+
+.hero .btn {
+    background-color: #25c066;
+    color: #f9faf8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
 
 
 /* OTHER */
 
 .btn {
     border: none;
+    transition: all ease 0.2s;
+}
+
+.btn:hover {
+    background-color: #27ad5f;
+    color: #e6e6e6;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #2b9256;
 }
