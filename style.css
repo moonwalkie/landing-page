@@ -43,8 +43,26 @@ body {
     color: #b2b8b8;
 }
 
+/* MW LOGO  */
+
 .logo img {
     width: 40px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo .logo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.logo .logo-hover:hover {
+    opacity: 1;
 }
 
 /* HEADER */
