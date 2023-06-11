@@ -46,7 +46,7 @@ body {
 /* HEADER */
 
 .header .container {
-    padding: 70px 100px;
+    padding: 80px 100px;
     /* flex-wrap: wrap; */
 }
 
@@ -87,8 +87,9 @@ body {
 .hero .btn {
     background-color: #25c066;
     color: #f9faf8;
-    padding: 8px 24px;
+    padding: 10px 30px;
     border-radius: 8px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -132,7 +133,7 @@ body {
     border: 3px solid #3f7061;
     border-radius: 10px;
     margin-top: 30px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     overflow: hidden;
     height: 330px;
 }
@@ -146,12 +147,36 @@ body {
     color: #1f3730;
 }
 
+/* QUOTE SECTION  */
+
+.quote .container {
+    background-color: #e5ebeb;
+    padding: 80px 250px;
+    color: #1f3730;
+}
+
+.quote .container p {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote .container .author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote .container .author p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+
 /* FOOTER */
 
 .footer .container {
     justify-content: center;
     color: #e5ebeb;
-
 }
 
 /* OTHER */
@@ -163,7 +188,7 @@ body {
 
 .btn:hover {
     background-color: #27ad5f;
-    color: #e6e6e6;
+    color: #dddddd;
     cursor: pointer;
 }
 
