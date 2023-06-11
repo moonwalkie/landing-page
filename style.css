@@ -11,7 +11,8 @@ body {
 /* NAVBAR */
 
 .navbar .container,
-.header .container {
+.header .container,
+.footer .container {
     background-color: #1f3730;
     display: flex;
     justify-content: space-between;
@@ -25,15 +26,16 @@ body {
     gap: 30px;
 }
 
-.nav a {
-    color: #fff;
+.nav a,
+.footer .container a {
     text-decoration: none;
     font-size: 18px;
     color: #e5ebeb;
     transition: all ease 0.2s;
 }
 
-.nav a:hover {
+.nav a:hover,
+.footer .container a:hover {
     color: #b2b8b8;
 }
 
@@ -89,7 +91,17 @@ body {
     font-weight: 700;
 }
 
+/* IMAGES SECTION  */
 
+
+
+/* FOOTER */
+
+.footer .container {
+    justify-content: center;
+    color: #e5ebeb;
+
+}
 
 /* OTHER */
 
