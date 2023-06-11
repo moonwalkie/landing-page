@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 100px;
+    padding: 10px 150px;
 }
 
 .navbar .container ul {
@@ -50,7 +50,7 @@ body {
 /* HEADER */
 
 .header .container {
-    padding: 50px 100px 100px;
+    padding: 50px 150px 100px;
     /* flex-wrap: wrap; */
 }
 
@@ -88,7 +88,8 @@ body {
     color: #e5ebeb;
 }
 
-.hero .btn {
+.hero .btn,
+.box .btn {
     background-color: #25c066;
     color: #f9faf8;
     padding: 10px 30px;
@@ -170,11 +171,47 @@ body {
     justify-content: flex-end;
 }
 
-.quote .container .author p {
+.quote .author h3 {
     font-size: 24px;
     font-weight: 500;
     margin-right: 50px;
     margin-top: 20px;
+}
+
+/* SIGN-UP SECTION  */
+
+.sign-up .container {
+    background-color: #f9faf8;
+    padding: 100px 150px;
+}
+
+.sign-up .box {
+    background-color: #25c066;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.sign-up .box p,
+.sign-up .box h3 {
+    margin: 0;
+}
+
+.sign-up .box h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign-up .box p {
+    font-size: 18px;
+    color: #e5ebeb;
+    margin-top: 2px;
+}
+
+.box .btn {
+    border: 2px solid #e5ebeb;
+    margin-left: 50px;
 }
 
 /* FOOTER */
