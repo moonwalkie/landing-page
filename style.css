@@ -8,17 +8,36 @@ body {
     flex-direction: column;
 }
 
-/* NAVBAR */
+.max-width {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.navbar,
+.header,
+.footer {
+    background-color: #1f3730;
+}
+
+.sign-up,
+.facts {
+    background-color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5ebeb;
+}
 
 .navbar .container,
 .header .container,
 .footer .container {
-    background-color: #1f3730;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
 }
+
+/* NAVBAR */
 
 .navbar .container {
     gap: 40px;
@@ -45,7 +64,7 @@ body {
     color: #b2b8b8;
 }
 
-/* MW LOGO  */
+/* MW LOGO */
 
 .logo img {
     width: 40px;
@@ -117,10 +136,9 @@ body {
     font-weight: 700;
 }
 
-/* FACTS SECTION  */
+/* FACTS SECTION */
 
 .facts .container {
-    background-color: #f9faf8;
     padding: 50px 100px 100px;
     display: flex;
     flex-direction: column;
@@ -171,10 +189,9 @@ body {
     color: #1f3730;
 }
 
-/* QUOTE SECTION  */
+/* QUOTE SECTION */
 
 .quote .container {
-    background-color: #e5ebeb;
     padding: 100px 250px;
     color: #1f3730;
 }
@@ -197,10 +214,9 @@ body {
     margin-top: 20px;
 }
 
-/* SIGN-UP SECTION  */
+/* SIGN-UP SECTION */
 
 .sign-up .container {
-    background-color: #f9faf8;
     padding: 100px 150px;
 }
 
@@ -284,8 +300,12 @@ body {
         padding: 50px 30px !important;
     }
 
+    .sign-up .text h3 {
+        margin: 0 0 20px !important;
+    }
+
     .box .btn {
-        margin: 20px 0 0 0 !important;
+        margin: 50px 0 0 !important;
     }
 }
 
